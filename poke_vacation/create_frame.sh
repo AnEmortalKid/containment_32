@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# cerner_2^5_2020
+
 # from foo/x.png -> x
 get_name(){
   local filename=$(basename -- "$1")
