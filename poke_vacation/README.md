@@ -28,4 +28,6 @@ docker ps -a
 docker cp $ID_OF_CONTAINER:out/the_image.png .
 ```
 
+## Sample
+
 ![](./mudkip_goes_to_beach.png)
