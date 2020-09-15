@@ -4,10 +4,14 @@
 
 The rules are simple:
 
-* Executions should be container based
+* Executions should involve a container somehow
   * Whatever that means
   * Dockerfile may/may not be _the submission_
 * Each subfolder should have further explanation and instructions
+
+## Why Docker?
+
+* Explore the power of images and get away from having to install compilers/interpreters for languages
 
 ## Entries
 
