@@ -1,6 +1,6 @@
 -- known set of primary to moons
 -- https://en.wikipedia.org/wiki/List_of_natural_satellites#Moons_by_primary
-moons_by_primary = { mercury={}, venus={}, earth={"moon"},mars={"phobos","deimos"}, jupiter={"callisto","io","europa","ganymede"}, }
+moons_by_primary = { mercury={}, venus={}, earth={"moon"},mars={"phobos","deimos"}, jupiter={"callisto","io","europa","ganymede"} }
 
 -- map moon to who it belongs to, unpacking inner arrays, hope no dupes!
 primary_by_moon = {}
@@ -22,14 +22,9 @@ function printArray(t)
     return s
 end
 
-function printMoons(planet)
-    -- access the table and print it 
-    print(string.format("%s has moons: [%s]", planet, printArray(moons_by_primary[planet])))
-end
-
 -- is it a planet ?
 if moons_by_primary[arg[1]] ~= nil then 
-   printMoons(arg[1])
+    print(string.format("%s has moons: [%s]", arg[1], printArray(moons_by_primary[arg[1]])))
 -- is it a moon ?
 elseif primary_by_moon[arg[1]] ~= nil then
     print(string.format("%s belongs to %s", arg[1], primary_by_moon[arg[1]]))
