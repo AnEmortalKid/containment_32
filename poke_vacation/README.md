@@ -4,6 +4,8 @@ If pokemons could take vacations, where would they go?
 
 [imagemagick](https://imagemagick.org/script/index.php) is an image maniuplation tool, with it, and the power of creativity, we can give fictitious vacations to pokemon.
 
+![](./mudkip_goes_to_beach.png)
+
 
 ## Docker
 
