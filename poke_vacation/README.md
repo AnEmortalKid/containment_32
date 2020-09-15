@@ -2,10 +2,7 @@
 
 If pokemons could take vacations, where would they go?
 
-[imagemagick](https://imagemagick.org/script/index.php) is an image maniuplation tool, with it, and the power of creativity, we can give fictitious vacations to pokemon.
-
-![](./mudkip_goes_to_beach.png)
-
+[imagemagick](https://imagemagick.org/script/index.php) is an image manipulation tool, with it, and the power of creativity, we can give fictitious vacations to pokemon.
 
 ## Docker
 
@@ -30,3 +27,5 @@ docker run -v ${PWD}/out:/out poke_vacation:latest
 docker ps -a
 docker cp $ID_OF_CONTAINER:out/the_image.png .
 ```
+
+![](./mudkip_goes_to_beach.png)
