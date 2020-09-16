@@ -21,6 +21,9 @@ The rules are simple:
 * [poke_vacation](./poke_vacation/README.md)
   * Build: `docker build poke_vacation -t poke_vacation`
   * Run: `docker run poke_vacation:latest` (see notes for extracting output)
+* [fib_db](./fib_db/README.md)
+  * Build: `docker build fib_db -t fib_db`
+  * Run: `docker run --name fibby fib_db:latest` (see notes for interacting)
 
 ## Clean
 
