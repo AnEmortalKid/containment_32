@@ -1,0 +1,24 @@
+version: "3.8"
+
+services:   
+  alice:
+    container_name: "alice"
+    image: whisperer:latest
+    environment:
+      NEXT_WHISPERER: "bob"      
+    ports:
+      - "8080:8080"      
+  bob:
+    container_name: "bob"
+    image: whisperer:latest
+    environment:
+      NEXT_WHISPERER: "carl"      
+    ports:
+      - "8080"
+  carl:
+    container_name: "carl"
+    image: whisperer:latest
+    environment: 
+      NEXT_WHISPERER: "NONE"
+    ports:
+      - "8080" 

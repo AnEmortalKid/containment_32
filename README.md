@@ -24,6 +24,9 @@ The rules are simple:
 * [fib_db](./fib_db/README.md)
   * Build: `docker build fib_db -t fib_db`
   * Run: `docker run --name fibby fib_db:latest` (see notes for interacting)
+* [telephones](./telephones/README.md)
+  * Build: `docker build telephones -t whisperer`
+  * Run: `docker-compose -f telephones/docker-compose.yml up` (see notes for interacting)
 
 ## Clean
 
