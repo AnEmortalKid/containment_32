@@ -27,6 +27,9 @@ The rules are simple:
 * [telephones](./telephones/README.md)
   * Build: `docker build telephones -t whisperer`
   * Run: `docker-compose -f telephones/docker-compose.yml up` (see notes for interacting)
+* [goombas](./goombas/README.md)
+  * Build: `docker build goombas -t goombas`
+  * Run: `docker run -v ${PWD}/results:/results goombas:latest` (see notes for interacting)
 
 ## Clean
 
