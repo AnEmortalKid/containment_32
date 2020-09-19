@@ -15,3 +15,6 @@ The levels were sourced from [Super Mario Bros Maps](http://ian-albert.com/games
 
 This sample was heavily inspired by the [template matching](https://docs.opencv.org/master/d4/dc6/tutorial_py_template_matching.html) tutorial for opencv. The thresholding value was played with. 
 
+## Sample
+
+![](./sample_mario-1-3.png)

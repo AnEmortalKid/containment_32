@@ -31,7 +31,7 @@ The rules are simple:
   * Build: `docker build goombas -t goombas`
   * Run: `docker run -v ${PWD}/results:/results goombas:latest` (see notes for interacting)
 * [trains_db](./trains_db/README.md)
-  * Build: `docker build . -t trains_db`
+  * Build: `docker build trains_db -t trains_db`
   * Run:
   ```bash
   docker run \
