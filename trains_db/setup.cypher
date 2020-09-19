@@ -1,3 +1,5 @@
+// cerner_2^5_2020
+
 // load all our data 
 LOAD CSV WITH HEADERS FROM 'file:///cities.csv' AS line
 // Create or find node

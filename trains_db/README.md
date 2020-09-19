@@ -1,6 +1,6 @@
 # trains
 
-[Ticket To Ride](https://www.daysofwonder.com/tickettoride/en/usa/) is a board game where playes have to connect cities by creating railways between them. Railways are built with train cards, and missions for certain routes give more points. This game should be solvable with graph algorithms, right?
+[Ticket To Ride](https://www.daysofwonder.com/tickettoride/en/usa/) is a board game where players have to connect cities by creating railways between them. Railways are built with train cards, and missions for certain routes give more points. This game should be solvable with graph algorithms, right?
 
 This sample creates the backing graph structure using [`neo4j`](https://neo4j.com/).
 
