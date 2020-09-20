@@ -20,8 +20,14 @@ This sample relied on the [ocr with tesseract](https://nanonets.com/blog/ocr-wit
 
 ## Sample
 
+### Comic 
+
 ![](./comics/covid19.png)
 
+### Template 
+
 ![](./samples/template_covid19.png)
+
+### Rewrite 
 
 ![](./samples/rewrite_covid19.png)
