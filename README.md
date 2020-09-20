@@ -42,6 +42,9 @@ The rules are simple:
     -v $HOME/neo4j/plugins:/plugins \
     trains_db:latest
   ```
+* [cdxk](./cdxk/README.md)
+  * Build: `docker build cdxk -t cdxk`
+  * Run: `docker run -v ${PWD}/output:/output -v ${PWD}/cdxk/comics:/comics cdxk:latest`
 
 ## Clean
 
