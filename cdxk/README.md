@@ -2,6 +2,8 @@
 
 [xkcd](https://xkcd.com/) is a webcomic that often times features simplistic drawings and witty text. Using OCR and OpenCV, can we make templates out of the comics to fill out with our own text?
 
+Download your own into the `comics/` folder as `.png` images
+
 ## Docker
 
 * Build: `docker build . -t cdxk`

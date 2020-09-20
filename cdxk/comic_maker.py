@@ -4,18 +4,22 @@ import numpy as np
 from pytesseract import Output
 import os
 
+# cerner_2^5_2020
+
 def templatify(image_name):
   img_file='comics/'+image_name
   img = cv.imread(img_file)
   template = cv.imread(img_file)
   rewrite = cv.imread(img_file)
 
+  # grayscaling is enough since comics are white/black and pretty clean
   d = pytesseract.image_to_data(cv.cvtColor(img, cv.COLOR_BGR2GRAY), output_type=Output.DICT)
   n_boxes = len(d['text'])
   for i in range(n_boxes):
     # we are sorta sure of these
     if int(d['conf'][i]) > 60:
       text = d['text'][i]
+      # has text and we didn't capture one of the panel boxes
       if text and text.strip() and text.strip() != "|" and text.strip() !="||":
         (x, y, w, h) = (d['left'][i], d['top'][i], d['width'][i], d['height'][i])
         template = cv.rectangle(template, (x, y), (x + w, y + h), (255, 255, 255), -1)
