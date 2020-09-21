@@ -4,3 +4,4 @@ target/
 .idea/
 *.class
 .java-version
+.vscode/

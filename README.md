@@ -45,6 +45,9 @@ The rules are simple:
 * [cdxk](./cdxk/README.md)
   * Build: `docker build cdxk -t cdxk`
   * Run: `docker run -v ${PWD}/output:/output -v ${PWD}/cdxk/comics:/comics cdxk:latest`
+* [trains_api](./trains_api/README.md)
+  * Build: `docker build trains_db -t trains_db`
+  * Run: `docker-compose -f trains_api/docker-compose.yml up` (see notes for interacting)
 
 ## Clean
 

@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:   
+  trains_db:
+    image: trains_db:latest
+    container_name: "trains_db"
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    volumes:
+      - $HOME/neo4j/data:/data
+      - $HOME/neo4j/logs:/logs
+      - $HOME/plugins:/plugins
+  trains_api:
+    build: . 
+    environment:
+      - NEO4J_HOST=trains_db
+    ports:
+      - "3000:3000"
+    depends_on:
+      - trains_db
