@@ -2,6 +2,8 @@
 
  A continuation of our work on `trains_db`, can we create a service that gives us the shortest paths between two cities?
 
+![](./paths_calc.jpg)
+
  ## Prerequisites
 
  1. The `trains_db` image must be built

@@ -2,6 +2,7 @@ const neo4j = require('neo4j-driver')
 const host = process.env.NEO4J_HOST || 'localhost'
 const driver = neo4j.driver('neo4j://' + host +':7687', neo4j.auth.basic('neo4j', 'test'))
 
+// cerner_2^5_2020
 module.exports.findPaths = async function(start,end) {
     const session = driver.session()
     try {
