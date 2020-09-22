@@ -1,0 +1,7 @@
+url: https://jsonplaceholder.typicode.com/posts
+method: GET
+queryParams:
+  userId:
+    - 1
+    - 2
+    - 3

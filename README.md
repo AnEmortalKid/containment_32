@@ -48,6 +48,9 @@ The rules are simple:
 * [trains_api](./trains_api/README.md)
   * Build: `docker build trains_db -t trains_db`
   * Run: `docker-compose -f trains_api/docker-compose.yml up` (see notes for interacting)
+* [gostman](./gostman/README.md)
+  * Build : `docker build gostman -t gostman`
+  * Run: `docker run -i --rm gostman < gostman/create_post.yaml`
 
 ## Clean
 
