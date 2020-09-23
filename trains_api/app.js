@@ -1,5 +1,9 @@
 const express = require('express')
+var cors = require('cors');
 const app = express()
+app.use(cors());
+console.log('Enabling cors')
+
 const port = 3000
 const pathFinder = require('./pathfinder')
 

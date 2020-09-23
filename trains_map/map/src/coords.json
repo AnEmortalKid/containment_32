@@ -1,0 +1,218 @@
+[
+    {
+        "name": "toronto",
+        "x": "815",
+        "y": "167",
+        "display": "Toronto"
+    },
+    {
+        "name": "boston",
+        "x": "968",
+        "y": "142",
+        "display": "Boston"
+    },
+    {
+        "name": "montreal",
+        "x": "900",
+        "y": "82",
+        "display": "Montreal"
+    },
+    {
+        "name": "new york",
+        "x": "915",
+        "y": "216",
+        "display": "New York"
+    },
+    {
+        "name": "pittsburgh",
+        "x": "833",
+        "y": "261",
+        "display": "Pittsburgh"
+    },
+    {
+        "name": "washington",
+        "x": "925",
+        "y": "307",
+        "display": "Washington"
+    },
+    {
+        "name": "miami",
+        "x": "925",
+        "y": "597",
+        "display": "Miami"
+    },
+    {
+        "name": "raleigh",
+        "x": "866",
+        "y": "373",
+        "display": "Raleigh"
+    },
+    {
+        "name": "charleston",
+        "x": "894",
+        "y": "439",
+        "display": "Charleston"
+    },
+    {
+        "name": "atlanta",
+        "x": "800",
+        "y": "432",
+        "display": "Atlanta"
+    },
+    {
+        "name": "nashville",
+        "x": "749",
+        "y": "397",
+        "display": "Nashville"
+    },
+    {
+        "name": "saul st marie",
+        "x": "705",
+        "y": "148",
+        "display": "Saul St. Marie"
+    },
+    {
+        "name": "chicago",
+        "x": "703",
+        "y": "276",
+        "display": "Chicago"
+    },
+    {
+        "name": "saint louis",
+        "x": "655",
+        "y": "357",
+        "display": "Saint Louis"
+    },
+    {
+        "name": "little rock",
+        "x": "640",
+        "y": "448",
+        "display": "Little Rock"
+    },
+    {
+        "name": "new orleans",
+        "x": "704",
+        "y": "560",
+        "display": "New Orleans"
+    },
+    {
+        "name": "houston",
+        "x": "610",
+        "y": "572",
+        "display": "Houston"
+    },
+    {
+        "name": "dallas",
+        "x": "567",
+        "y": "531",
+        "display": "Dallas"
+    },
+    {
+        "name": "oklahoma city",
+        "x": "547",
+        "y": "444",
+        "display": "Oklahoma City"
+    },
+    {
+        "name": "kansas city",
+        "x": "568",
+        "y": "356",
+        "display": "Kansas City"
+    },
+    {
+        "name": "omaha",
+        "x": "546",
+        "y": "307",
+        "display": "Omaha"
+    },
+    {
+        "name": "duluth",
+        "x": "578",
+        "y": "213",
+        "display": "Duluth"
+    },
+    {
+        "name": "winnipeg",
+        "x": "465",
+        "y": "96",
+        "display": "Winnipeg"
+    },
+    {
+        "name": "el paso",
+        "x": "386",
+        "y": "556",
+        "display": "El Paso"
+    },
+    {
+        "name": "santa fe",
+        "x": "393",
+        "y": "466",
+        "display": "Santa Fe"
+    },
+    {
+        "name": "denver",
+        "x": "400",
+        "y": "375",
+        "display": "Denver"
+    },
+    {
+        "name": "phoenix",
+        "x": "269",
+        "y": "518",
+        "display": "Phoenix"
+    },
+    {
+        "name": "helena",
+        "x": "340",
+        "y": "220",
+        "display": "Helena"
+    },
+    {
+        "name": "las vegas",
+        "x": "270",
+        "y": "343",
+        "display": "Las Vegas"
+    },
+    {
+        "name": "salt lake city",
+        "x": "268",
+        "y": "343",
+        "display": "Salt Lake City"
+    },
+    {
+        "name": "calgary",
+        "x": "241",
+        "y": "87",
+        "display": "Calgary"
+    },
+    {
+        "name": "los angeles",
+        "x": "147",
+        "y": "512",
+        "display": "Los Angeles"
+    },
+    {
+        "name": "san francisco",
+        "x": "70",
+        "y": "406",
+        "display": "San Francisco"
+    },
+    {
+        "name": "portland",
+        "x": "85",
+        "y": "210",
+        "display": "Portland"
+    },
+    {
+        "name": "seattle",
+        "x": "105",
+        "y": "161",
+        "display": "Seattle"
+    },
+    {
+        "name": "vancouver",
+        "x": "110",
+        "y": "106",
+        "display": "Vancouver"
+    }
+]
