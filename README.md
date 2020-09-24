@@ -54,6 +54,9 @@ The rules are simple:
 * [trains_map](./trains_map/README.md)
   * Build: `docker build trains_db -t trains_db`, `docker build trains_api -t trains_api`
   * Run: `docker-compose -f trains_map/docker-compose.yml up` (see notes for interacting)
+* [mango_db](./mango_db/README.md)
+  * Build: `docker build mango_db -t mango_db`
+  * Run: `docker run --name mangodb mango_db:latest` (see notes for interacting)
 
 ## Clean
 
