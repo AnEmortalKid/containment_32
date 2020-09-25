@@ -1,6 +1,6 @@
 # mango_db
 
-![](./mangoDB.png)
+![](./msngoDB.png)
 
 Using `mongo`, let's build a database of some [mangos](https://en.wikipedia.org/wiki/List_of_mango_cultivars) and their origins!
 
