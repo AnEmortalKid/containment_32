@@ -57,6 +57,9 @@ The rules are simple:
 * [mango_db](./mango_db/README.md)
   * Build: `docker build mango_db -t mango_db`
   * Run: `docker run --name mangodb mango_db:latest` (see notes for interacting)
+* [world_clock](./world_clock/README.md)
+  * Build: `docker build world_clock -t world_clock`
+  * Run: `docker run -p 80:80 world_clock:latest`
 
 ## Clean
 
