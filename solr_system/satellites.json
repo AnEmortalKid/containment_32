@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Moon",
+        "type": "satellite",
+        "imgLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
+        "description": "The Moon is a relatively large, terrestrial, planet-like natural satellite, with a diameter about one-quarter of Earth's"
+    },
+    {
+        "name": "Phobos",
+        "type":"satellite",
+        "imgLink":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Phobos_colour_2008.jpg/344px-Phobos_colour_2008.jpg",
+        "description":"Phobos /ˈfoʊbɒs/ (systematic designation: Mars I) is the innermost and larger of the two natural satellites of Mars."
+    },
+    {
+        "name": "Deimos",
+        "type":"satellite",
+        "imgLink":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Deimos-MRO.jpg/324px-Deimos-MRO.jpg",
+        "description":"Deimos /ˈdaɪmɒs/ (systematic designation: Mars II)[10] is the smaller and outermost of the two natural satellites of Mars."
+    }
+]

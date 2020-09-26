@@ -59,7 +59,10 @@ The rules are simple:
   * Run: `docker run --name mangodb mango_db:latest` (see notes for interacting)
 * [world_clock](./world_clock/README.md)
   * Build: `docker build world_clock -t world_clock`
-  * Run: `docker run -p 80:80 world_clock:latest`
+  * Run: `docker run -p 80:80 world_clock:latest` (see notes for interacting)
+* [solr_system](./solr_system/README.md)
+  * Build: `docker build solr_system -t solr_system`
+  * Run: `docker run --name solr_system -p 8983:8983 solr_system` (see notes for interacting)
 
 ## Clean
 

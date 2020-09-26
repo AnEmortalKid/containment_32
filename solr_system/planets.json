@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Mercury",
+        "imgLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Mercury_in_color_-_Prockter07-edit1.jpg/440px-Mercury_in_color_-_Prockter07-edit1.jpg",
+        "type": "inner planet",
+        "description": "Mercury (0.4 AU from the Sun) is the closest planet to the Sun and on average, all seven other planets."
+    },
+    {
+        "name": "Venus",
+        "imgLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/PIA23791-Venus-NewlyProcessedView-20200608.jpg/440px-PIA23791-Venus-NewlyProcessedView-20200608.jpg",
+        "type": "inner planet",
+        "description": "Venus (0.7 AU from the Sun) is close in size to Earth (0.815 M⊕) and, like Earth, has a thick silicate mantle around an iron core, a substantial atmosphere, and evidence of internal geological activity."
+    },
+    {
+        "name": "Earth",
+        "imgLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/440px-The_Earth_seen_from_Apollo_17.jpg",
+        "type": "inner planet",
+        "description": "Earth (1 AU from the Sun) is the largest and densest of the inner planets, the only one known to have current geological activity, and the only place where life is known to exist."
+    },
+    {
+        "name": "Mars",
+        "imgLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/240px-OSIRIS_Mars_true_color.jpg",
+        "type": "inner planet",
+        "description": "Mars (1.5 AU from the Sun) is smaller than Earth and Venus (0.107 M⊕)"
+    },
+    {
+        "name": "Jupiter",
+        "imgLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg/440px-Jupiter_and_its_shrunken_Great_Red_Spot.jpg",
+        "type": "outer planet",
+        "description": "Jupiter (5.2 AU), at 318 M⊕, is 2.5 times the mass of all the other planets put together."
+    },
+    {
+        "name": "Saturn",
+        "imgLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/600px-Saturn_during_Equinox.jpg",
+        "type": "outer planet",
+        "description": "Saturn (9.5 AU), distinguished by its extensive ring system, has several similarities to Jupiter, such as its atmospheric composition and magnetosphere."
+    },
+    {
+        "name": "Uranus",
+        "imgLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Uranus2.jpg/440px-Uranus2.jpg",
+        "type": "outer planet","description":"Uranus (19.2 AU), at 14 M⊕, is the lightest of the outer planets."
+    },
+    {
+        "name": "Neptune",
+        "imgLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg/440px-Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg",
+        "type": "outer planet","description":"Neptune (30.1 AU), though slightly smaller than Uranus, is more massive (17 M⊕) and hence more dense."
+    },
+    {
+        "name": "Pluto",
+        "imgLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Pluto_in_True_Color_-_High-Res.jpg/440px-Pluto_in_True_Color_-_High-Res.jpg",
+        "type": "dwarf planet",
+        "description":"The dwarf planet Pluto (39 AU average) is the largest known object in the Kuiper belt."
+    },
+    {
+        "name": "Makemake",
+        "imgLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Makemake_and_its_moon.jpg/440px-Makemake_and_its_moon.jpg",
+        "type": "dwarf planet",
+        "description":"Makemake (45.79 AU average), although smaller than Pluto, is the largest known object in the classical Kuiper belt (that is, a Kuiper belt object not in a confirmed resonance with Neptune)."
+    },
+    {
+        "name": "Haumea",
+        "imgLink": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Haumea_Hubble.png",
+        "type": "dwarf planet",
+        "description":"Haumea (43.13 AU average) is in an orbit similar to Makemake, except that it is in a temporary 7:12 orbital resonance with Neptune."
+    }
+]
