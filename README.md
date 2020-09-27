@@ -63,6 +63,9 @@ The rules are simple:
 * [solr_system](./solr_system/README.md)
   * Build: `docker build solr_system -t solr_system`
   * Run: `docker run --name solr_system -p 8983:8983 solr_system` (see notes for interacting)
+* [pyramid_album](./pyramid_album/README.md)
+  * Build: `docker build pyramid_album -t pyramid_album`
+  * Run: `docker run -p 8080:8080 pyramid_album` , visit http://localhost:8080/
 
 ## Clean
 
