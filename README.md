@@ -66,6 +66,9 @@ The rules are simple:
 * [pyramid_album](./pyramid_album/README.md)
   * Build: `docker build pyramid_album -t pyramid_album`
   * Run: `docker run -p 8080:8080 pyramid_album` , visit http://localhost:8080/
+* [animal_proxying](./animal_proxying/README.md)
+  * Build: `docker build animal_proxying -t animal_proxying`
+  * Run: `docker run -p 8080:8080 animal_proxying:latest` , visit http://localhost:8080/
 
 ## Clean
 

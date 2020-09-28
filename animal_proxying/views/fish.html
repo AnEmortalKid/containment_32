@@ -1,0 +1,29 @@
+<html>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $.get(`http://localhost:8080/showFish`, function (data) {
+        $("#name").text(data.name["name-USen"]);
+        $("#icon").attr('src',data["icon_uri"]);
+        $("#phrase").text(data["museum-phrase"])
+    });
+</script>
+
+<div id="result">
+</div>
+
+<div class="w3-container">
+    <h2>Random Fish</h2>
+    <div class="w3-card-4" style="width:70%">
+      <header class="w3-container w3-blue">
+        <h3 id="name"></h3>
+      </header>
+      <div class="w3-container">
+        <hr>
+        <img id="icon" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+        <p id="phrase"></p><br>
+      </div>
+    </div>
+  </div>
+
+</html>
