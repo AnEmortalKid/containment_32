@@ -69,6 +69,9 @@ The rules are simple:
 * [animal_proxying](./animal_proxying/README.md)
   * Build: `docker build animal_proxying -t animal_proxying`
   * Run: `docker run -p 8080:8080 animal_proxying:latest` , visit http://localhost:8080/
+* [lollersk8s](./lollersk8s/README.md)
+  * Build: `docker build lollersk8s -t lollersk8s`
+  * Run: `docker run -it lollersk8s` - follow prompt for interaction
 
 ## Clean
 
