@@ -1,6 +1,6 @@
 # animal_proxying
 
-A take on [Jake Varness' animal crossing entries](https://github.com/jvarness/cerner-2-to-the-5th/tree/master/2020) using [nginx](https://nginx.org/en/) to make a small application that retrieves random and displays random data.
+A take on [Jake Varness' animal crossing entries](https://github.com/jvarness/cerner-2-to-the-5th/tree/master/2020) using [nginx](https://nginx.org/en/) to make a small application that displays random data from the ACNH api.
 
 ## Docker
 
