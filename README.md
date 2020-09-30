@@ -72,6 +72,9 @@ The rules are simple:
 * [lollersk8s](./lollersk8s/README.md)
   * Build: `docker build lollersk8s -t lollersk8s`
   * Run: `docker run -it lollersk8s` - follow prompt for interaction
+* [bettas](./bettas/README.md)
+  * Build: `docker build . -t bettas`
+  * Run: `docker run -it bettas [type]` e.g. `docker run -it bettas crowntail`
 
 ## Clean
 
