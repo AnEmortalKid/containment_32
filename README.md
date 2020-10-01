@@ -75,6 +75,9 @@ The rules are simple:
 * [bettas](./bettas/README.md)
   * Build: `docker build . -t bettas`
   * Run: `docker run -it bettas [type]` e.g. `docker run -it bettas crowntail`
+* [emojify](./emojify/README.md)
+  * Build: `docker build . -t emojify`
+  * Run: `docker run -it emojify`
 
 ## Clean
 

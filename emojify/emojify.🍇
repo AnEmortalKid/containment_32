@@ -1,0 +1,38 @@
+💭🔜
+cerner_2^5_2020
+🔚💭
+💭 start of the program
+🏁 🍇
+  💭 print a prompt
+  😀 🔤Enter phrase to emojify:🔤❗️
+
+  💭 get input from stdin and assign to variable
+  🆕🔡▶️👂🏼❗️ ➡️ phrase
+
+  💭 convert the list of chars into list of string separated by space
+  🔫 phrase 🔤 🔤 ❗️ ➡️ words
+
+  💭 get a random number generator
+  🆕 🎰 ❗️➡️ randy
+  
+  💭 iterate over each word in our list and print it with an emoji based on random number
+  🔂 word words 🍇
+    💭 get a random number [0,4]
+    🔢 randy 0 4 ❗️ ➡️ num
+    ↪️ 0 🙌 num 🍇
+      👄 🔤🧲word🧲 🥳 🔤❗️
+    🍉
+    🙅↪️ 1 🙌 num 🍇
+      👄 🔤🧲word🧲 🍇 🔤❗️
+    🍉
+    🙅↪️ 2 🙌 num 🍇
+      👄 🔤🧲word🧲 🙊 🔤❗️
+    🍉
+    🙅↪️ 3 🙌 num 🍇
+      👄 🔤🧲word🧲 🐱 🔤❗️
+    🍉
+    🙅 🍇
+      👄 🔤🧲word🧲 🍟 🔤❗️
+    🍉
+  🍉
+🍉

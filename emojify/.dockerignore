@@ -1,0 +1,6 @@
+# ignore local repl
+Emojicode-1.0-beta.2-Darwin-x86_64/
+# ignore local prog
+emojifiy
+# ignore o files
+*.o
