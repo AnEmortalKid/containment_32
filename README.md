@@ -81,6 +81,9 @@ The rules are simple:
 * [kurl](./kurl/README.md)
   * Build : `docker build kurl -t kurl`
   * Run: `docker run kurl [args]` e.g. `docker run kurl https://jsonplaceholder.typicode.com/posts`
+* [gweather](./gweather/README.md)
+  * Build: `export API_KEY=your_weatherstack_key ; docker build --build-arg WEATHERSTACK_KEY=$API_KEY gweather -t gweather`
+  * Run: `docker run gweather`
 
 ## Clean
 
