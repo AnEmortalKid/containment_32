@@ -78,6 +78,9 @@ The rules are simple:
 * [emojify](./emojify/README.md)
   * Build: `docker build . -t emojify`
   * Run: `docker run -it emojify`
+* [kurl](./kurl/README.md)
+  * Build : `docker build kurl -t kurl`
+  * Run: `docker run kurl [args]` e.g. `docker run kurl https://jsonplaceholder.typicode.com/posts`
 
 ## Clean
 
