@@ -84,6 +84,9 @@ The rules are simple:
 * [gweather](./gweather/README.md)
   * Build: `export API_KEY=your_weatherstack_key ; docker build --build-arg WEATHERSTACK_KEY=$API_KEY gweather -t gweather`
   * Run: `docker run gweather`
+* [taylor_swift](./taylor_swift/README.md)
+  * Build: `docker build . -t taylor_swift`
+  * Run: `docker run taylor_swift`
 
 ## Clean
 
