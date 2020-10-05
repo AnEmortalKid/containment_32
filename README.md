@@ -87,6 +87,9 @@ The rules are simple:
 * [taylor_swift](./taylor_swift/README.md)
   * Build: `docker build . -t taylor_swift`
   * Run: `docker run taylor_swift`
+* [dicey](./dicey/README.md)
+  * Build: `docker build . -t dicey`
+  * Run: `docker run dicey 2d4`
 
 ## Clean
 
