@@ -85,11 +85,14 @@ The rules are simple:
   * Build: `export API_KEY=your_weatherstack_key ; docker build --build-arg WEATHERSTACK_KEY=$API_KEY gweather -t gweather`
   * Run: `docker run gweather`
 * [taylor_swift](./taylor_swift/README.md)
-  * Build: `docker build . -t taylor_swift`
+  * Build: `docker build taylor_swift -t taylor_swift`
   * Run: `docker run taylor_swift`
 * [dicey](./dicey/README.md)
-  * Build: `docker build . -t dicey`
+  * Build: `docker build dicey -t dicey`
   * Run: `docker run dicey 2d4`
+* [kalories](./kalories/README.md)
+  * Build: `docker build kalories -t kalories`
+  * Run: `docker run kalories [your search terms]`
 
 ## Clean
 
