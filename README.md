@@ -93,6 +93,9 @@ The rules are simple:
 * [kalories](./kalories/README.md)
   * Build: `docker build kalories -t kalories`
   * Run: `docker run kalories [your search terms]`
+* [mtgo](./mtgo/README.md)
+  * Build: `docker build mtgo -t mtgo`
+  * Run: `docker run mtgo Black Lotus`
 
 ## Clean
 
