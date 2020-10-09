@@ -99,7 +99,10 @@ The rules are simple:
 * [gravatar](./gravatar/README.md)
   * Build: `docker build gravatar -t gravatar`
   * Run: `docker run gravatar [term]`, e.g. `docker run gravatar foo`, (see notes for extracting output)
-
+* [grivia](./grivia/README.md)
+  * Build: `docker build grivia -t grivia`
+  * Run: `docker run -it grivia`
+  
 ## Clean
 
 Playing around with the containers might leave exited containers, clean with:
