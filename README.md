@@ -96,6 +96,9 @@ The rules are simple:
 * [mtgo](./mtgo/README.md)
   * Build: `docker build mtgo -t mtgo`
   * Run: `docker run mtgo Black Lotus`
+* [gravatar](./gravatar/README.md)
+  * Build: `docker build gravatar -t gravatar`
+  * Run: `docker run gravatar [term]`, e.g. `docker run gravatar foo`, (see notes for extracting output)
 
 ## Clean
 
