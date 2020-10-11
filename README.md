@@ -105,6 +105,9 @@ The rules are simple:
 * [50_shades](./50_shades/README.md)
   * Build: `docker build 50_shades -t 50_shades`
   * Run: `docker run -v ${PWD}/out:/out 50_shades`
+* [Lango](./lango/README.md)
+  * Build: `export API_KEY=your_languagelayer_key ; docker build --build-arg LANGUAGELAYER_KEY=$API_KEY lango -t lango`
+  * Run: `docker run lango Text to search here`
   
 ## Clean
 
