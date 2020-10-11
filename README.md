@@ -102,6 +102,9 @@ The rules are simple:
 * [grivia](./grivia/README.md)
   * Build: `docker build grivia -t grivia`
   * Run: `docker run -it grivia`
+* [50_shades](./50_shades/README.md)
+  * Build: `docker build 50_shades -t 50_shades`
+  * Run: `docker run -v ${PWD}/out:/out 50_shades`
   
 ## Clean
 
