@@ -108,6 +108,9 @@ The rules are simple:
 * [Lango](./lango/README.md)
   * Build: `export API_KEY=your_languagelayer_key ; docker build --build-arg LANGUAGELAYER_KEY=$API_KEY lango -t lango`
   * Run: `docker run lango Text to search here`
+* [frank](./frank/README.md)
+  * Build : `docker build frank -t frank`
+  * Run: `docker run -p 4567:4567 frank` (see notes for interacting)
   
 ## Clean
 
