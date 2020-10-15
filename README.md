@@ -111,6 +111,9 @@ The rules are simple:
 * [frank](./frank/README.md)
   * Build : `docker build frank -t frank`
   * Run: `docker run -p 4567:4567 frank` (see notes for interacting)
+* [doged](./doged/README.md)
+  * Build: `docker build doged -t doged`
+  * Run: `docker run -it doged` (see notes for interacting)
   
 ## Clean
 
