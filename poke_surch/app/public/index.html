@@ -1,0 +1,59 @@
+<html>
+  <title>poke_surch</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <style type="text/css">
+    body {
+      font: 14px "Comic Sans MS", Helvetica;
+    }
+    h3 {
+      font-family: "Comic Sans MS";
+    }
+  </style>
+  <body>
+    <div class="w3-container">
+      <h1>poke_surch</h1>
+      <img src="./doge.png" />
+      <p>
+        A webapp built with express to search pokmeons from the first
+        generation, powered by dogescript
+      </p>
+      <p>Find pokemon by name (contains)</p>
+      <input type="search" name="search" value="" />
+
+      <div class="w3-row-padding w3-margin-top">
+        <div id="results"></div>
+      </div>
+    </div>
+  </body>
+
+  <script>
+    var search = document.querySelector("[type=search]");
+
+    search.addEventListener(
+      "keyup",
+      function () {
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", "/pokemon?name=" + search.value, true);
+        xhr.onreadystatechange = function () {
+          if (xhr.readyState === 4) {
+            var pokemon = JSON.parse(xhr.responseText);
+            $("#results").empty();
+            for (var i = 0; i < pokemon.length; i++) {
+              var $container = $("<div>", { class: "w3-third" });
+              var $viewSection = $("<div>", { class: "w3-card" });
+              var $name = $("<h3>").text(pokemon[i].name);
+              var $img = $("<img>", { src: pokemon[i].img });
+              $viewSection.append($name);
+              $viewSection.append($img);
+              $container.append($viewSection);
+              $("#results").append($container);
+            }
+          }
+        };
+        xhr.send();
+      },
+      false
+    );
+  </script>
+</html>

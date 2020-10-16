@@ -105,7 +105,7 @@ The rules are simple:
 * [50_shades](./50_shades/README.md)
   * Build: `docker build 50_shades -t 50_shades`
   * Run: `docker run -v ${PWD}/out:/out 50_shades`
-* [Lango](./lango/README.md)
+* [lango](./lango/README.md)
   * Build: `export API_KEY=your_languagelayer_key ; docker build --build-arg LANGUAGELAYER_KEY=$API_KEY lango -t lango`
   * Run: `docker run lango Text to search here`
 * [frank](./frank/README.md)
@@ -114,6 +114,9 @@ The rules are simple:
 * [doged](./doged/README.md)
   * Build: `docker build doged -t doged`
   * Run: `docker run -it doged` (see notes for interacting)
+* [poke_surch](./poke_surch/)
+  * Build: `docker build doged -t doged`, `docker build poke_surch -t poke_surch`
+  * Run: `docker run --init -p 3000:3000 poke_surch` (see notes for interacting)
   
 ## Clean
 
